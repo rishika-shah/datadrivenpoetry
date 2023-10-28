@@ -4,7 +4,7 @@ let keyframeIndex = 0;
 const width = 650;
 const height = 550;
 async function loadData(){
-    await d3.csv("../data/yearwise_data.csv").then(data => {
+    await d3.csv("yearwise_data.csv").then(data => {
         crimeData = data;
     });
     // await d3.csv("../data/crime_data.csv").then(data => {
